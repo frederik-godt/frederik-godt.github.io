@@ -1,0 +1,40 @@
+---
+title: "Frederik Godt"
+subtitle: "Assistant Professor (tenure track), Department of Political Science and Public Management, University of Southern Denmark"
+about:
+  template: solana
+  image: profile.jpg
+  image-alt: "Portrait of Frederik Godt"
+  image-shape: rectangle
+  image-width: 12em
+  links:
+    - text: ORCID
+      href: https://orcid.org/0000-0001-8238-0390
+    - text: Google Scholar
+      href: https://scholar.google.com/citations?user=pOmU6WsAAAAJ&hl=da
+    - text: University profile
+      href: https://portal.findresearcher.sdu.dk/da/persons/fgodt
+    - icon: file-earmark-person
+      text: CV (PDF)
+      href: cv.pdf
+---
+
+I am a tenure-track assistant professor at the Department of Political Science, University of Southern Denmark, affiliated with the Public Administration Research Group. My research systematically examines how citizens' encounters with the state shape their trust in public institutions. My primary contribution is to the understanding of the micro-foundations of institutional trust. Specifically, my research demonstrates that institutional trust is shaped by perceptions of outcomes, fair processes, and relations with frontline workers, and politicians' ability to efficiently deliver on promised policy objectives. This research agenda has resulted in a series of publications in leading international journals and established my expertise in institutional trust and causal inference through survey experiments.
+
+I received my PhD in political science at Aarhus University in November 2021.
+
+## Most recent work
+
+```{r}
+#| include: false
+source("R/publications.R")
+bib <- "references.bib"
+```
+
+```{r}
+#| echo: false
+#| output: asis
+pub_list(bib, theme = "new")
+```
+
+### [See all my publications](http://localhost:5354/research.html)

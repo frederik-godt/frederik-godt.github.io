@@ -1,0 +1,29 @@
+---
+title: "CV"
+---
+
+[Download CV as PDF](cv.pdf){.btn .btn-primary}
+
+## Employment
+
+- **2024–present** Assistant Professor (tenure track), Department of Political Science, University of Southern Denmark
+- **2021–2024** Postdoctoral Researcher, Department of Psychology and Behavioural Sciences, Aarhus University
+
+## Education
+
+- **[Year]** PhD, [Institution], [Dissertation title]
+- **[Year]** MSc, [Institution]
+- **[Year]** BA, [Institution]
+
+## Awards and grants
+
+- [Year] [Award / grant]
+
+## Conference presentations
+
+- [Year] [Conference, title]
+
+## Service
+
+- [Reviewer for journals]
+- [Committee work]

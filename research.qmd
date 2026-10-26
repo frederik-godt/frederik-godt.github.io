@@ -1,0 +1,68 @@
+---
+title: "Research"
+execute:
+  echo: false
+---
+
+```{r}
+#| include: false
+source("R/publications.R")
+bib <- "references.bib"
+```
+
+## Trust in government
+
+### Published articles
+
+```{r}
+#| output: asis
+pub_list(bib, theme = "trust", status = "published")
+```
+
+## Administrative burden
+
+### Published articles
+
+```{r}
+#| output: asis
+pub_list(bib, theme = "burdens", status = "published")
+```
+
+### Working papers
+
+```{r}
+#| output: asis
+pub_list(bib, theme = "burdens", status = "workingpaper")
+```
+
+## Discrimination and frontline workers
+
+### Published articles
+
+```{r}
+#| output: asis
+pub_list(bib, theme = "discrimination", status = "published")
+```
+
+### Working papers
+
+```{r}
+#| output: asis
+pub_list(bib, theme = "discrimination", status = "workingpaper")
+```
+
+## Couple and family well-being
+
+### Published articles
+
+```{r}
+#| output: asis
+pub_list(bib, theme = "couples", status = "published")
+```
+
+### Working papers
+
+```{r}
+#| output: asis
+pub_list(bib, theme = "couples", status = "workingpaper")
+```

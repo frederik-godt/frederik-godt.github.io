@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+
+lang: en
+
+website:
+  title: "Frederik Godt"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope
+        href: mailto:fgodt@sam.sdu.dk
+      - icon: linkedin
+        href: https://linkedin.com
+      - icon: mortarboard
+        href: https://scholar.google.com/citations?user=pOmU6WsAAAAJ&hl=da
+        
+  page-footer:
+    left: "© 2026 Frederik Godt"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    grid:
+      body-width: 1100px
+      margin-width: 150px
+      gutter-width: 1.5rem
