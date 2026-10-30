@@ -1,6 +1,7 @@
 ---
 title: "Frederik Godt"
 subtitle: "Assistant Professor (tenure track), Department of Political Science and Public Management, University of Southern Denmark"
+description: "Personal website for Frederik Godt, Assistant professor in Public Administration, University of Southern Denmark."
 about:
   template: solana
   image: profile.jpg
