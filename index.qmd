@@ -37,4 +37,4 @@ bib <- "references.bib"
 pub_list(bib, theme = "new")
 ```
 
-### [See all my publications](https://frederikgodthansen.github.io/research.html)
+### [See all my publications]
