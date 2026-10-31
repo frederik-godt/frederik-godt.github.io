@@ -34,7 +34,7 @@ bib <- "references.bib"
 ```{r}
 #| echo: false
 #| output: asis
-pub_list(bib, theme = "new")
+pub_list(bib, theme = "new", empty = "*No recent publications yet.*")
 ```
 
-### [See all my publications]
+[See all my publications →](research.qmd)
